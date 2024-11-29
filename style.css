@@ -2,6 +2,10 @@
     margin: 0;
     padding:0;
 }
+body{
+    background-color: #f0f4f7;
+
+}
 .row{
     margin-right: 0px;
 }
@@ -108,4 +112,44 @@ description p {
     color: #555; 
     font-size: 1rem;
     line-height: 1.6;
+}
+
+.courses{
+    width:300px;
+    height: 490px;
+
+}
+
+#special-course{
+    height: 490px;
+    overflow: hidden;
+}
+#special-course:hover{
+    max-height: 100%;
+    /* background-color: wheat; */
+    color: red;
+    border: 2px solid rgb(218, 165, 32);
+    box-shadow: 2px 2px 7px rgba(218, 165, 32, 0.664);
+}
+.offer{
+    right: -46px;
+    position: absolute;
+    background-color: aqua;
+    rotate: 45deg;
+    margin-right: 15px;
+    margin-top: 25px;
+    color: green;
+    height: 25px;
+    width: 126px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    border-bottom: 1px solid #888;
+    right: 0;
+    position: absolute;
+    rotate: 45deg;
+    margin-right: 15px;
+    margin-top: 25px;
 }
